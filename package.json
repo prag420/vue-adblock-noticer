@@ -1,0 +1,28 @@
+{
+  "name": "vue-adblock-notice",
+  "version": "0.2.0",
+  "description": "Vue 3 ad-blocker detection with dismissible notice. Multi-network script probes, multi-pattern bait elements, timing anomaly detection, and optional browser fingerprinting. Ships minified and obfuscated browser build.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./detect": "./src/detect.js",
+    "./browser": "./dist/antiAdBlocker.min.ob.js"
+  },
+  "files": ["src", "dist", "LICENSE"],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/detect.test.js"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1",
+    "terser": "^5.36.0",
+    "jsdom": "^24.0.0"
+  },
+  "license": "MIT",
+  "keywords": ["vue", "adblock", "anti-adblock"]
+}
