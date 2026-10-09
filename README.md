@@ -1,6 +1,6 @@
 # vue-adblock-notice
 
-A Vue 3 ad-blocker detection library with a dismissible notice component. Originally inspired by [The-3Labs-Team/js-anti-adblock](https://github.com/The-3Labs-Team/js-anti-adblock) (MIT), but now a standalone implementation with significantly expanded detection capabilities.
+A Vue 3 ad-blocker detection library with a dismissible notice component. A standalone implementation with significantly expanded detection capabilities then the others that exist.
 
 The browser file you ship is `dist/antiAdBlocker.min.ob.js` — minified and obfuscated (string array + base64). Source stays readable in `src/`.
 
